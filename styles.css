@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2e2f2e;
+  height: 100vh;
+}
+
+section {
+  height: 80vh;
+  width: 60rem;
+  background: #fced51;
+  padding: 6rem;
+}
+
+section header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+section header span {
+  cursor: pointer;
+  color: #7e762a;
+}
+
+section header span:hover {
+  color: #000;
+}
+
+section .form {
+  background: #fff;
+  position: relative;
+  padding: 4rem;
+  margin-top: 8rem;
+  width: 60rem;
+}
+
+section .form .form-group {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+section .form img {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  position: absolute;
+  top: -5rem;
+  left: 4rem;
+}
+
+section .form .form-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  flex-grow: 1;
+}
+
+section .form .form-control.username {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+section .form .form-control label {
+  text-transform: uppercase;
+  color: #939290;
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+section .form .form-control .form-input {
+  border: none;
+  border-bottom: 1px solid #939290;
+  padding: 0.5rem 0;
+}
+
+section .form .form-control .form-input:active,
+section .form .form-control .form-input:focus {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #939290;
+}
+
+section footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+section footer span {
+  font-size: 2rem;
+  margin-left: 5rem;
+  cursor: pointer;
+  color: #939290;
+  font-weight: 500;
+}
+
+section footer span:hover {
+  color: #000;
+}
